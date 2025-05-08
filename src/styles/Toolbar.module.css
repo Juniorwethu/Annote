@@ -1,0 +1,22 @@
+.toolbar {
+    display: flex;
+    padding: 10px;
+    background-color: #f0f0f0;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
